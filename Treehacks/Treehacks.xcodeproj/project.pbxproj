@@ -21,6 +21,7 @@
 		ADD6FE4022189EED00139967 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE3F22189EED00139967 /* LoginViewController.swift */; };
 		ADD6FE4222189F0200139967 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE4122189F0200139967 /* ResetPasswordViewController.swift */; };
 		ADD6FE4422189F6500139967 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADD6FE4322189F6500139967 /* GoogleService-Info.plist */; };
+		FC2A17272218AE8900B4C506 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A17262218AE8900B4C506 /* RankViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		E28DBDD38108CAD172756DCB /* Pods-TreehacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksTests.debug.xcconfig"; path = "Target Support Files/Pods-TreehacksTests/Pods-TreehacksTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA63AA82A44DDE748899595 /* Pods_TreehacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreehacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB191E41FFD22AFDDA6788CE /* Pods-TreehacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksTests.release.xcconfig"; path = "Target Support Files/Pods-TreehacksTests/Pods-TreehacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2A17262218AE8900B4C506 /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				ADD6FE0F22189E1D00139967 /* AppDelegate.swift */,
 				ADD6FE1122189E1D00139967 /* SignUpViewController.swift */,
 				ADD6FE1322189E1D00139967 /* HomeViewController.swift */,
+				FC2A17262218AE8900B4C506 /* RankViewController.swift */,
 				ADD6FE1522189E1D00139967 /* Main.storyboard */,
 				ADD6FE1822189E1E00139967 /* Assets.xcassets */,
 				ADD6FE1A22189E1E00139967 /* LaunchScreen.storyboard */,
@@ -420,6 +423,7 @@
 			files = (
 				ADD6FE4022189EED00139967 /* LoginViewController.swift in Sources */,
 				ADD6FE1422189E1D00139967 /* HomeViewController.swift in Sources */,
+				FC2A17272218AE8900B4C506 /* RankViewController.swift in Sources */,
 				ADD6FE4222189F0200139967 /* ResetPasswordViewController.swift in Sources */,
 				ADD6FE1022189E1D00139967 /* AppDelegate.swift in Sources */,
 				ADD6FE1222189E1D00139967 /* SignUpViewController.swift in Sources */,
