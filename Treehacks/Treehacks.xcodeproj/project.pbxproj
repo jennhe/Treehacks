@@ -7,183 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A108887CB51031F758D8836 /* Pods_Treehacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F05E1FC6C520B79A9E24F5B /* Pods_Treehacks.framework */; };
-		ADBA0E622217DE4C002AA8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBA0E612217DE4C002AA8A7 /* AppDelegate.swift */; };
-		ADBA0E642217DE4C002AA8A7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBA0E632217DE4C002AA8A7 /* LoginViewController.swift */; };
-		ADBA0E662217DE4C002AA8A7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBA0E652217DE4C002AA8A7 /* SecondViewController.swift */; };
-		ADBA0E692217DE4C002AA8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBA0E672217DE4C002AA8A7 /* Main.storyboard */; };
-		ADBA0E6B2217DE4E002AA8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBA0E6A2217DE4E002AA8A7 /* Assets.xcassets */; };
-		ADBA0E6E2217DE4E002AA8A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBA0E6C2217DE4E002AA8A7 /* LaunchScreen.storyboard */; };
-		ADBA0E792217DE4E002AA8A7 /* TreehacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBA0E782217DE4E002AA8A7 /* TreehacksTests.swift */; };
-		ADBA0E842217DE4E002AA8A7 /* TreehacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBA0E832217DE4E002AA8A7 /* TreehacksUITests.swift */; };
-		ADBA0E922217E4DC002AA8A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBA0E912217E4DC002AA8A7 /* GoogleService-Info.plist */; };
-		DC7BDE02B44FF0FA1B1CDED7 /* Pods_TreehacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33F3E798DC0E8F64E88E988 /* Pods_TreehacksTests.framework */; };
-		F48C394FD8EA0F034FFFD32B /* Pods_TreehacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846CE0766F1174FB328EFE51 /* Pods_TreehacksUITests.framework */; };
+		018E616EC2D0E7BCF3A94F99 /* Pods_Treehacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CEFBD7C1337816CC91CFFE /* Pods_Treehacks.framework */; };
+		15E3DE21F63355E6A0FCD93B /* Pods_TreehacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA63AA82A44DDE748899595 /* Pods_TreehacksUITests.framework */; };
+		3D4791C785CA9D07C7739EC4 /* Pods_TreehacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23727CD4E031A7275BECD5E4 /* Pods_TreehacksTests.framework */; };
+		ADD6FE1022189E1D00139967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE0F22189E1D00139967 /* AppDelegate.swift */; };
+		ADD6FE1222189E1D00139967 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE1122189E1D00139967 /* SignUpViewController.swift */; };
+		ADD6FE1422189E1D00139967 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE1322189E1D00139967 /* HomeViewController.swift */; };
+		ADD6FE1722189E1D00139967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD6FE1522189E1D00139967 /* Main.storyboard */; };
+		ADD6FE1922189E1E00139967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD6FE1822189E1E00139967 /* Assets.xcassets */; };
+		ADD6FE1C22189E1E00139967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD6FE1A22189E1E00139967 /* LaunchScreen.storyboard */; };
+		ADD6FE2722189E1E00139967 /* TreehacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE2622189E1E00139967 /* TreehacksTests.swift */; };
+		ADD6FE3222189E1E00139967 /* TreehacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE3122189E1E00139967 /* TreehacksUITests.swift */; };
+		ADD6FE4022189EED00139967 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE3F22189EED00139967 /* LoginViewController.swift */; };
+		ADD6FE4222189F0200139967 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6FE4122189F0200139967 /* ResetPasswordViewController.swift */; };
+		ADD6FE4422189F6500139967 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADD6FE4322189F6500139967 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ADBA0E752217DE4E002AA8A7 /* PBXContainerItemProxy */ = {
+		ADD6FE2322189E1E00139967 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADBA0E562217DE4C002AA8A7 /* Project object */;
+			containerPortal = ADD6FE0422189E1D00139967 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADBA0E5D2217DE4C002AA8A7;
+			remoteGlobalIDString = ADD6FE0B22189E1D00139967;
 			remoteInfo = Treehacks;
 		};
-		ADBA0E802217DE4E002AA8A7 /* PBXContainerItemProxy */ = {
+		ADD6FE2E22189E1E00139967 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ADBA0E562217DE4C002AA8A7 /* Project object */;
+			containerPortal = ADD6FE0422189E1D00139967 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ADBA0E5D2217DE4C002AA8A7;
+			remoteGlobalIDString = ADD6FE0B22189E1D00139967;
 			remoteInfo = Treehacks;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F05E1FC6C520B79A9E24F5B /* Pods_Treehacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treehacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5076AFF8BA1A36A8CA06976F /* Pods-TreehacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksUITests.release.xcconfig"; path = "Target Support Files/Pods-TreehacksUITests/Pods-TreehacksUITests.release.xcconfig"; sourceTree = "<group>"; };
-		846CE0766F1174FB328EFE51 /* Pods_TreehacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreehacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DC87197385B181CF53954FD /* Pods-Treehacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treehacks.release.xcconfig"; path = "Target Support Files/Pods-Treehacks/Pods-Treehacks.release.xcconfig"; sourceTree = "<group>"; };
-		ADBA0E5E2217DE4C002AA8A7 /* Treehacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treehacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBA0E612217DE4C002AA8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADBA0E632217DE4C002AA8A7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		ADBA0E652217DE4C002AA8A7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		ADBA0E682217DE4C002AA8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADBA0E6A2217DE4E002AA8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ADBA0E6D2217DE4E002AA8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ADBA0E6F2217DE4E002AA8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADBA0E742217DE4E002AA8A7 /* TreehacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreehacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBA0E782217DE4E002AA8A7 /* TreehacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreehacksTests.swift; sourceTree = "<group>"; };
-		ADBA0E7A2217DE4E002AA8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADBA0E7F2217DE4E002AA8A7 /* TreehacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreehacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBA0E832217DE4E002AA8A7 /* TreehacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreehacksUITests.swift; sourceTree = "<group>"; };
-		ADBA0E852217DE4E002AA8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADBA0E912217E4DC002AA8A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D33F3E798DC0E8F64E88E988 /* Pods_TreehacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreehacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4BD63660AED5AE80921CD9A /* Pods-TreehacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksTests.debug.xcconfig"; path = "Target Support Files/Pods-TreehacksTests/Pods-TreehacksTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E48F9C517ABE3EB7D7CA2535 /* Pods-Treehacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treehacks.debug.xcconfig"; path = "Target Support Files/Pods-Treehacks/Pods-Treehacks.debug.xcconfig"; sourceTree = "<group>"; };
-		E8C40C6935A7E5AD07488EED /* Pods-TreehacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksUITests.debug.xcconfig"; path = "Target Support Files/Pods-TreehacksUITests/Pods-TreehacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF4447E80580DA848A92E6E1 /* Pods-TreehacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksTests.release.xcconfig"; path = "Target Support Files/Pods-TreehacksTests/Pods-TreehacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		0AA31E9E521A2FB6AFAF4504 /* Pods-Treehacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treehacks.debug.xcconfig"; path = "Target Support Files/Pods-Treehacks/Pods-Treehacks.debug.xcconfig"; sourceTree = "<group>"; };
+		23727CD4E031A7275BECD5E4 /* Pods_TreehacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreehacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFE3E896597536E545AD754 /* Pods-TreehacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksUITests.debug.xcconfig"; path = "Target Support Files/Pods-TreehacksUITests/Pods-TreehacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60CEFBD7C1337816CC91CFFE /* Pods_Treehacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treehacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E43B16EC66C98668930B8A /* Pods-Treehacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treehacks.release.xcconfig"; path = "Target Support Files/Pods-Treehacks/Pods-Treehacks.release.xcconfig"; sourceTree = "<group>"; };
+		ADD6FE0C22189E1D00139967 /* Treehacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treehacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD6FE0F22189E1D00139967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADD6FE1122189E1D00139967 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ADD6FE1322189E1D00139967 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADD6FE1622189E1D00139967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD6FE1822189E1E00139967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD6FE1B22189E1E00139967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD6FE1D22189E1E00139967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD6FE2222189E1E00139967 /* TreehacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreehacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD6FE2622189E1E00139967 /* TreehacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreehacksTests.swift; sourceTree = "<group>"; };
+		ADD6FE2822189E1E00139967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD6FE2D22189E1E00139967 /* TreehacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreehacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD6FE3122189E1E00139967 /* TreehacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreehacksUITests.swift; sourceTree = "<group>"; };
+		ADD6FE3322189E1E00139967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD6FE3F22189EED00139967 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ADD6FE4122189F0200139967 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		ADD6FE4322189F6500139967 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C7D1CE016A708A93A2A89609 /* Pods-TreehacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksUITests.release.xcconfig"; path = "Target Support Files/Pods-TreehacksUITests/Pods-TreehacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E28DBDD38108CAD172756DCB /* Pods-TreehacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksTests.debug.xcconfig"; path = "Target Support Files/Pods-TreehacksTests/Pods-TreehacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA63AA82A44DDE748899595 /* Pods_TreehacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreehacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB191E41FFD22AFDDA6788CE /* Pods-TreehacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreehacksTests.release.xcconfig"; path = "Target Support Files/Pods-TreehacksTests/Pods-TreehacksTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADBA0E5B2217DE4C002AA8A7 /* Frameworks */ = {
+		ADD6FE0922189E1D00139967 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A108887CB51031F758D8836 /* Pods_Treehacks.framework in Frameworks */,
+				018E616EC2D0E7BCF3A94F99 /* Pods_Treehacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA0E712217DE4E002AA8A7 /* Frameworks */ = {
+		ADD6FE1F22189E1E00139967 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7BDE02B44FF0FA1B1CDED7 /* Pods_TreehacksTests.framework in Frameworks */,
+				3D4791C785CA9D07C7739EC4 /* Pods_TreehacksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA0E7C2217DE4E002AA8A7 /* Frameworks */ = {
+		ADD6FE2A22189E1E00139967 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48C394FD8EA0F034FFFD32B /* Pods_TreehacksUITests.framework in Frameworks */,
+				15E3DE21F63355E6A0FCD93B /* Pods_TreehacksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0902B4C4275F79CE7BEC2E5B /* Frameworks */ = {
+		8E7A16E486CF2EBAC748CAB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F05E1FC6C520B79A9E24F5B /* Pods_Treehacks.framework */,
-				D33F3E798DC0E8F64E88E988 /* Pods_TreehacksTests.framework */,
-				846CE0766F1174FB328EFE51 /* Pods_TreehacksUITests.framework */,
+				60CEFBD7C1337816CC91CFFE /* Pods_Treehacks.framework */,
+				23727CD4E031A7275BECD5E4 /* Pods_TreehacksTests.framework */,
+				EEA63AA82A44DDE748899595 /* Pods_TreehacksUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ADBA0E552217DE4C002AA8A7 = {
+		A3FD17A4CF8B94F7CC12D0D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA0E602217DE4C002AA8A7 /* Treehacks */,
-				ADBA0E772217DE4E002AA8A7 /* TreehacksTests */,
-				ADBA0E822217DE4E002AA8A7 /* TreehacksUITests */,
-				ADBA0E5F2217DE4C002AA8A7 /* Products */,
-				E1DF6240B5E1846A217543EB /* Pods */,
-				0902B4C4275F79CE7BEC2E5B /* Frameworks */,
+				0AA31E9E521A2FB6AFAF4504 /* Pods-Treehacks.debug.xcconfig */,
+				95E43B16EC66C98668930B8A /* Pods-Treehacks.release.xcconfig */,
+				E28DBDD38108CAD172756DCB /* Pods-TreehacksTests.debug.xcconfig */,
+				FB191E41FFD22AFDDA6788CE /* Pods-TreehacksTests.release.xcconfig */,
+				4FFE3E896597536E545AD754 /* Pods-TreehacksUITests.debug.xcconfig */,
+				C7D1CE016A708A93A2A89609 /* Pods-TreehacksUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADD6FE0322189E1D00139967 = {
+			isa = PBXGroup;
+			children = (
+				ADD6FE0E22189E1D00139967 /* Treehacks */,
+				ADD6FE2522189E1E00139967 /* TreehacksTests */,
+				ADD6FE3022189E1E00139967 /* TreehacksUITests */,
+				ADD6FE0D22189E1D00139967 /* Products */,
+				A3FD17A4CF8B94F7CC12D0D8 /* Pods */,
+				8E7A16E486CF2EBAC748CAB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		ADBA0E5F2217DE4C002AA8A7 /* Products */ = {
+		ADD6FE0D22189E1D00139967 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA0E5E2217DE4C002AA8A7 /* Treehacks.app */,
-				ADBA0E742217DE4E002AA8A7 /* TreehacksTests.xctest */,
-				ADBA0E7F2217DE4E002AA8A7 /* TreehacksUITests.xctest */,
+				ADD6FE0C22189E1D00139967 /* Treehacks.app */,
+				ADD6FE2222189E1E00139967 /* TreehacksTests.xctest */,
+				ADD6FE2D22189E1E00139967 /* TreehacksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADBA0E602217DE4C002AA8A7 /* Treehacks */ = {
+		ADD6FE0E22189E1D00139967 /* Treehacks */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA0E612217DE4C002AA8A7 /* AppDelegate.swift */,
-				ADBA0E632217DE4C002AA8A7 /* LoginViewController.swift */,
-				ADBA0E652217DE4C002AA8A7 /* SecondViewController.swift */,
-				ADBA0E672217DE4C002AA8A7 /* Main.storyboard */,
-				ADBA0E6A2217DE4E002AA8A7 /* Assets.xcassets */,
-				ADBA0E6C2217DE4E002AA8A7 /* LaunchScreen.storyboard */,
-				ADBA0E6F2217DE4E002AA8A7 /* Info.plist */,
-				ADBA0E912217E4DC002AA8A7 /* GoogleService-Info.plist */,
+				ADD6FE0F22189E1D00139967 /* AppDelegate.swift */,
+				ADD6FE1122189E1D00139967 /* SignUpViewController.swift */,
+				ADD6FE1322189E1D00139967 /* HomeViewController.swift */,
+				ADD6FE1522189E1D00139967 /* Main.storyboard */,
+				ADD6FE1822189E1E00139967 /* Assets.xcassets */,
+				ADD6FE1A22189E1E00139967 /* LaunchScreen.storyboard */,
+				ADD6FE1D22189E1E00139967 /* Info.plist */,
+				ADD6FE3F22189EED00139967 /* LoginViewController.swift */,
+				ADD6FE4322189F6500139967 /* GoogleService-Info.plist */,
+				ADD6FE4122189F0200139967 /* ResetPasswordViewController.swift */,
 			);
 			path = Treehacks;
 			sourceTree = "<group>";
 		};
-		ADBA0E772217DE4E002AA8A7 /* TreehacksTests */ = {
+		ADD6FE2522189E1E00139967 /* TreehacksTests */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA0E782217DE4E002AA8A7 /* TreehacksTests.swift */,
-				ADBA0E7A2217DE4E002AA8A7 /* Info.plist */,
+				ADD6FE2622189E1E00139967 /* TreehacksTests.swift */,
+				ADD6FE2822189E1E00139967 /* Info.plist */,
 			);
 			path = TreehacksTests;
 			sourceTree = "<group>";
 		};
-		ADBA0E822217DE4E002AA8A7 /* TreehacksUITests */ = {
+		ADD6FE3022189E1E00139967 /* TreehacksUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ADBA0E832217DE4E002AA8A7 /* TreehacksUITests.swift */,
-				ADBA0E852217DE4E002AA8A7 /* Info.plist */,
+				ADD6FE3122189E1E00139967 /* TreehacksUITests.swift */,
+				ADD6FE3322189E1E00139967 /* Info.plist */,
 			);
 			path = TreehacksUITests;
-			sourceTree = "<group>";
-		};
-		E1DF6240B5E1846A217543EB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E48F9C517ABE3EB7D7CA2535 /* Pods-Treehacks.debug.xcconfig */,
-				9DC87197385B181CF53954FD /* Pods-Treehacks.release.xcconfig */,
-				D4BD63660AED5AE80921CD9A /* Pods-TreehacksTests.debug.xcconfig */,
-				EF4447E80580DA848A92E6E1 /* Pods-TreehacksTests.release.xcconfig */,
-				E8C40C6935A7E5AD07488EED /* Pods-TreehacksUITests.debug.xcconfig */,
-				5076AFF8BA1A36A8CA06976F /* Pods-TreehacksUITests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADBA0E5D2217DE4C002AA8A7 /* Treehacks */ = {
+		ADD6FE0B22189E1D00139967 /* Treehacks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADBA0E882217DE4E002AA8A7 /* Build configuration list for PBXNativeTarget "Treehacks" */;
+			buildConfigurationList = ADD6FE3622189E1E00139967 /* Build configuration list for PBXNativeTarget "Treehacks" */;
 			buildPhases = (
-				1ECAAB920A3E13FA375A062A /* [CP] Check Pods Manifest.lock */,
-				ADBA0E5A2217DE4C002AA8A7 /* Sources */,
-				ADBA0E5B2217DE4C002AA8A7 /* Frameworks */,
-				ADBA0E5C2217DE4C002AA8A7 /* Resources */,
-				827340246446F098FD05BD3E /* [CP] Embed Pods Frameworks */,
+				01CFC47830A5CFD5EF127810 /* [CP] Check Pods Manifest.lock */,
+				ADD6FE0822189E1D00139967 /* Sources */,
+				ADD6FE0922189E1D00139967 /* Frameworks */,
+				ADD6FE0A22189E1D00139967 /* Resources */,
+				A66C1E67A01514319D4873DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,71 +196,71 @@
 			);
 			name = Treehacks;
 			productName = Treehacks;
-			productReference = ADBA0E5E2217DE4C002AA8A7 /* Treehacks.app */;
+			productReference = ADD6FE0C22189E1D00139967 /* Treehacks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADBA0E732217DE4E002AA8A7 /* TreehacksTests */ = {
+		ADD6FE2122189E1E00139967 /* TreehacksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADBA0E8B2217DE4E002AA8A7 /* Build configuration list for PBXNativeTarget "TreehacksTests" */;
+			buildConfigurationList = ADD6FE3922189E1E00139967 /* Build configuration list for PBXNativeTarget "TreehacksTests" */;
 			buildPhases = (
-				6D6A137BFC5B3BE91F8A4165 /* [CP] Check Pods Manifest.lock */,
-				ADBA0E702217DE4E002AA8A7 /* Sources */,
-				ADBA0E712217DE4E002AA8A7 /* Frameworks */,
-				ADBA0E722217DE4E002AA8A7 /* Resources */,
+				8CE22FB735F69BB032843F85 /* [CP] Check Pods Manifest.lock */,
+				ADD6FE1E22189E1E00139967 /* Sources */,
+				ADD6FE1F22189E1E00139967 /* Frameworks */,
+				ADD6FE2022189E1E00139967 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADBA0E762217DE4E002AA8A7 /* PBXTargetDependency */,
+				ADD6FE2422189E1E00139967 /* PBXTargetDependency */,
 			);
 			name = TreehacksTests;
 			productName = TreehacksTests;
-			productReference = ADBA0E742217DE4E002AA8A7 /* TreehacksTests.xctest */;
+			productReference = ADD6FE2222189E1E00139967 /* TreehacksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ADBA0E7E2217DE4E002AA8A7 /* TreehacksUITests */ = {
+		ADD6FE2C22189E1E00139967 /* TreehacksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADBA0E8E2217DE4E002AA8A7 /* Build configuration list for PBXNativeTarget "TreehacksUITests" */;
+			buildConfigurationList = ADD6FE3C22189E1E00139967 /* Build configuration list for PBXNativeTarget "TreehacksUITests" */;
 			buildPhases = (
-				F285294444B6CBBEB0546E2F /* [CP] Check Pods Manifest.lock */,
-				ADBA0E7B2217DE4E002AA8A7 /* Sources */,
-				ADBA0E7C2217DE4E002AA8A7 /* Frameworks */,
-				ADBA0E7D2217DE4E002AA8A7 /* Resources */,
+				B5FCE75A20C76507F49583CD /* [CP] Check Pods Manifest.lock */,
+				ADD6FE2922189E1E00139967 /* Sources */,
+				ADD6FE2A22189E1E00139967 /* Frameworks */,
+				ADD6FE2B22189E1E00139967 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADBA0E812217DE4E002AA8A7 /* PBXTargetDependency */,
+				ADD6FE2F22189E1E00139967 /* PBXTargetDependency */,
 			);
 			name = TreehacksUITests;
 			productName = TreehacksUITests;
-			productReference = ADBA0E7F2217DE4E002AA8A7 /* TreehacksUITests.xctest */;
+			productReference = ADD6FE2D22189E1E00139967 /* TreehacksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ADBA0E562217DE4C002AA8A7 /* Project object */ = {
+		ADD6FE0422189E1D00139967 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Katie Mishra";
 				TargetAttributes = {
-					ADBA0E5D2217DE4C002AA8A7 = {
+					ADD6FE0B22189E1D00139967 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					ADBA0E732217DE4E002AA8A7 = {
+					ADD6FE2122189E1E00139967 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = ADBA0E5D2217DE4C002AA8A7;
+						TestTargetID = ADD6FE0B22189E1D00139967;
 					};
-					ADBA0E7E2217DE4E002AA8A7 = {
+					ADD6FE2C22189E1E00139967 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = ADBA0E5D2217DE4C002AA8A7;
+						TestTargetID = ADD6FE0B22189E1D00139967;
 					};
 				};
 			};
-			buildConfigurationList = ADBA0E592217DE4C002AA8A7 /* Build configuration list for PBXProject "Treehacks" */;
+			buildConfigurationList = ADD6FE0722189E1D00139967 /* Build configuration list for PBXProject "Treehacks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,38 +268,38 @@
 				en,
 				Base,
 			);
-			mainGroup = ADBA0E552217DE4C002AA8A7;
-			productRefGroup = ADBA0E5F2217DE4C002AA8A7 /* Products */;
+			mainGroup = ADD6FE0322189E1D00139967;
+			productRefGroup = ADD6FE0D22189E1D00139967 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADBA0E5D2217DE4C002AA8A7 /* Treehacks */,
-				ADBA0E732217DE4E002AA8A7 /* TreehacksTests */,
-				ADBA0E7E2217DE4E002AA8A7 /* TreehacksUITests */,
+				ADD6FE0B22189E1D00139967 /* Treehacks */,
+				ADD6FE2122189E1E00139967 /* TreehacksTests */,
+				ADD6FE2C22189E1E00139967 /* TreehacksUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ADBA0E5C2217DE4C002AA8A7 /* Resources */ = {
+		ADD6FE0A22189E1D00139967 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBA0E6E2217DE4E002AA8A7 /* LaunchScreen.storyboard in Resources */,
-				ADBA0E922217E4DC002AA8A7 /* GoogleService-Info.plist in Resources */,
-				ADBA0E6B2217DE4E002AA8A7 /* Assets.xcassets in Resources */,
-				ADBA0E692217DE4C002AA8A7 /* Main.storyboard in Resources */,
+				ADD6FE1C22189E1E00139967 /* LaunchScreen.storyboard in Resources */,
+				ADD6FE1922189E1E00139967 /* Assets.xcassets in Resources */,
+				ADD6FE1722189E1D00139967 /* Main.storyboard in Resources */,
+				ADD6FE4422189F6500139967 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA0E722217DE4E002AA8A7 /* Resources */ = {
+		ADD6FE2022189E1E00139967 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA0E7D2217DE4E002AA8A7 /* Resources */ = {
+		ADD6FE2B22189E1E00139967 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,7 +309,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1ECAAB920A3E13FA375A062A /* [CP] Check Pods Manifest.lock */ = {
+		01CFC47830A5CFD5EF127810 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,7 +331,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D6A137BFC5B3BE91F8A4165 /* [CP] Check Pods Manifest.lock */ = {
+		8CE22FB735F69BB032843F85 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,7 +353,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		827340246446F098FD05BD3E /* [CP] Embed Pods Frameworks */ = {
+		A66C1E67A01514319D4873DB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,14 +362,26 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Treehacks/Pods-Treehacks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +389,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Treehacks/Pods-Treehacks-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F285294444B6CBBEB0546E2F /* [CP] Check Pods Manifest.lock */ = {
+		B5FCE75A20C76507F49583CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,60 +414,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ADBA0E5A2217DE4C002AA8A7 /* Sources */ = {
+		ADD6FE0822189E1D00139967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBA0E662217DE4C002AA8A7 /* SecondViewController.swift in Sources */,
-				ADBA0E622217DE4C002AA8A7 /* AppDelegate.swift in Sources */,
-				ADBA0E642217DE4C002AA8A7 /* LoginViewController.swift in Sources */,
+				ADD6FE4022189EED00139967 /* LoginViewController.swift in Sources */,
+				ADD6FE1422189E1D00139967 /* HomeViewController.swift in Sources */,
+				ADD6FE4222189F0200139967 /* ResetPasswordViewController.swift in Sources */,
+				ADD6FE1022189E1D00139967 /* AppDelegate.swift in Sources */,
+				ADD6FE1222189E1D00139967 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA0E702217DE4E002AA8A7 /* Sources */ = {
+		ADD6FE1E22189E1E00139967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBA0E792217DE4E002AA8A7 /* TreehacksTests.swift in Sources */,
+				ADD6FE2722189E1E00139967 /* TreehacksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA0E7B2217DE4E002AA8A7 /* Sources */ = {
+		ADD6FE2922189E1E00139967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBA0E842217DE4E002AA8A7 /* TreehacksUITests.swift in Sources */,
+				ADD6FE3222189E1E00139967 /* TreehacksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ADBA0E762217DE4E002AA8A7 /* PBXTargetDependency */ = {
+		ADD6FE2422189E1E00139967 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ADBA0E5D2217DE4C002AA8A7 /* Treehacks */;
-			targetProxy = ADBA0E752217DE4E002AA8A7 /* PBXContainerItemProxy */;
+			target = ADD6FE0B22189E1D00139967 /* Treehacks */;
+			targetProxy = ADD6FE2322189E1E00139967 /* PBXContainerItemProxy */;
 		};
-		ADBA0E812217DE4E002AA8A7 /* PBXTargetDependency */ = {
+		ADD6FE2F22189E1E00139967 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ADBA0E5D2217DE4C002AA8A7 /* Treehacks */;
-			targetProxy = ADBA0E802217DE4E002AA8A7 /* PBXContainerItemProxy */;
+			target = ADD6FE0B22189E1D00139967 /* Treehacks */;
+			targetProxy = ADD6FE2E22189E1E00139967 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADBA0E672217DE4C002AA8A7 /* Main.storyboard */ = {
+		ADD6FE1522189E1D00139967 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ADBA0E682217DE4C002AA8A7 /* Base */,
+				ADD6FE1622189E1D00139967 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ADBA0E6C2217DE4E002AA8A7 /* LaunchScreen.storyboard */ = {
+		ADD6FE1A22189E1E00139967 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ADBA0E6D2217DE4E002AA8A7 /* Base */,
+				ADD6FE1B22189E1E00139967 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -458,7 +477,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ADBA0E862217DE4E002AA8A7 /* Debug */ = {
+		ADD6FE3422189E1E00139967 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -519,7 +538,7 @@
 			};
 			name = Debug;
 		};
-		ADBA0E872217DE4E002AA8A7 /* Release */ = {
+		ADD6FE3522189E1E00139967 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -574,9 +593,9 @@
 			};
 			name = Release;
 		};
-		ADBA0E892217DE4E002AA8A7 /* Debug */ = {
+		ADD6FE3722189E1E00139967 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E48F9C517ABE3EB7D7CA2535 /* Pods-Treehacks.debug.xcconfig */;
+			baseConfigurationReference = 0AA31E9E521A2FB6AFAF4504 /* Pods-Treehacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,9 +611,9 @@
 			};
 			name = Debug;
 		};
-		ADBA0E8A2217DE4E002AA8A7 /* Release */ = {
+		ADD6FE3822189E1E00139967 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DC87197385B181CF53954FD /* Pods-Treehacks.release.xcconfig */;
+			baseConfigurationReference = 95E43B16EC66C98668930B8A /* Pods-Treehacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,9 +629,9 @@
 			};
 			name = Release;
 		};
-		ADBA0E8C2217DE4E002AA8A7 /* Debug */ = {
+		ADD6FE3A22189E1E00139967 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4BD63660AED5AE80921CD9A /* Pods-TreehacksTests.debug.xcconfig */;
+			baseConfigurationReference = E28DBDD38108CAD172756DCB /* Pods-TreehacksTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,9 +650,9 @@
 			};
 			name = Debug;
 		};
-		ADBA0E8D2217DE4E002AA8A7 /* Release */ = {
+		ADD6FE3B22189E1E00139967 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF4447E80580DA848A92E6E1 /* Pods-TreehacksTests.release.xcconfig */;
+			baseConfigurationReference = FB191E41FFD22AFDDA6788CE /* Pods-TreehacksTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,9 +671,9 @@
 			};
 			name = Release;
 		};
-		ADBA0E8F2217DE4E002AA8A7 /* Debug */ = {
+		ADD6FE3D22189E1E00139967 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8C40C6935A7E5AD07488EED /* Pods-TreehacksUITests.debug.xcconfig */;
+			baseConfigurationReference = 4FFE3E896597536E545AD754 /* Pods-TreehacksUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -672,9 +691,9 @@
 			};
 			name = Debug;
 		};
-		ADBA0E902217DE4E002AA8A7 /* Release */ = {
+		ADD6FE3E22189E1E00139967 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5076AFF8BA1A36A8CA06976F /* Pods-TreehacksUITests.release.xcconfig */;
+			baseConfigurationReference = C7D1CE016A708A93A2A89609 /* Pods-TreehacksUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -695,43 +714,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADBA0E592217DE4C002AA8A7 /* Build configuration list for PBXProject "Treehacks" */ = {
+		ADD6FE0722189E1D00139967 /* Build configuration list for PBXProject "Treehacks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADBA0E862217DE4E002AA8A7 /* Debug */,
-				ADBA0E872217DE4E002AA8A7 /* Release */,
+				ADD6FE3422189E1E00139967 /* Debug */,
+				ADD6FE3522189E1E00139967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADBA0E882217DE4E002AA8A7 /* Build configuration list for PBXNativeTarget "Treehacks" */ = {
+		ADD6FE3622189E1E00139967 /* Build configuration list for PBXNativeTarget "Treehacks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADBA0E892217DE4E002AA8A7 /* Debug */,
-				ADBA0E8A2217DE4E002AA8A7 /* Release */,
+				ADD6FE3722189E1E00139967 /* Debug */,
+				ADD6FE3822189E1E00139967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADBA0E8B2217DE4E002AA8A7 /* Build configuration list for PBXNativeTarget "TreehacksTests" */ = {
+		ADD6FE3922189E1E00139967 /* Build configuration list for PBXNativeTarget "TreehacksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADBA0E8C2217DE4E002AA8A7 /* Debug */,
-				ADBA0E8D2217DE4E002AA8A7 /* Release */,
+				ADD6FE3A22189E1E00139967 /* Debug */,
+				ADD6FE3B22189E1E00139967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADBA0E8E2217DE4E002AA8A7 /* Build configuration list for PBXNativeTarget "TreehacksUITests" */ = {
+		ADD6FE3C22189E1E00139967 /* Build configuration list for PBXNativeTarget "TreehacksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADBA0E8F2217DE4E002AA8A7 /* Debug */,
-				ADBA0E902217DE4E002AA8A7 /* Release */,
+				ADD6FE3D22189E1E00139967 /* Debug */,
+				ADD6FE3E22189E1E00139967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ADBA0E562217DE4C002AA8A7 /* Project object */;
+	rootObject = ADD6FE0422189E1D00139967 /* Project object */;
 }

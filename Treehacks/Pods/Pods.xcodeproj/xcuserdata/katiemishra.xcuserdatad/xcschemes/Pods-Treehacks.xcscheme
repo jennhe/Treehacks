@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "021844F7EB595B34A8FFC3916FF1381E"
+               BlueprintIdentifier = "8373387AC8AF4ABE8F8C4606CF2BABDE"
                BuildableName = "Pods_Treehacks.framework"
                BlueprintName = "Pods-Treehacks"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "021844F7EB595B34A8FFC3916FF1381E"
+            BlueprintIdentifier = "8373387AC8AF4ABE8F8C4606CF2BABDE"
             BuildableName = "Pods_Treehacks.framework"
             BlueprintName = "Pods-Treehacks"
             ReferencedContainer = "container:Pods.xcodeproj">
