@@ -29,10 +29,9 @@ class SignUpViewController: UIViewController {
                 
                 if error == nil {
                     print("You have successfully signed up")
-                    var ref: DatabaseReference!
                     
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
-                    ref = Database.database().reference().child("users").child(user?.user.uid ?? "test");
+                    let ref: DatabaseReference! = Database.database().reference().child("users").child(user?.user.uid ?? "test");
                     
                     ref.child("firstName").setValue(self.firstNameTextField.text ?? "No First Name");
                     ref.child("lastName").setValue(self.lastNameTextField.text ?? "No Last Name");
@@ -41,6 +40,7 @@ class SignUpViewController: UIViewController {
                     ref.child("numCoins").setValue(0);
                     ref.child("Level").setValue(1);
                     ref.child("Hospital").setValue("Stanford Hospital");
+                    
                     
                     
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "Home")
